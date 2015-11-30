@@ -7,7 +7,7 @@
 
 	![Error Messages](http://i.imgur.com/mJP6zYy.png)
 
-2. Simpler to use then Gulp.
+2. Simpler to use than Gulp.
 	```
 	> npm install https://github.com/JoyKrishnaMondal/LessBuild.git
 	> node -p "require('LessBuild')()"
