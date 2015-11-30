@@ -35,7 +35,7 @@ When running without any argument:
 ```
 it does the same as:
  ```
->"require('LessBuild')(1,1,0,process.cwd(),process.cwd())"
+> "require('LessBuild')(1,1,0,process.cwd(),process.cwd())"
 ```
 The first three arguments are flags for :
 
