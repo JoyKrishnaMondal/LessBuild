@@ -39,11 +39,11 @@ it does the same as:
 ```
 The first three arguments are flags for :
 
-	1. Initial Compilation *regardless* of file change.
-	2. Should I set up a watch ? 
-	3. Should I do a cleanup on exit ? 
+1. Initial Compilation *regardless* of file change.
+2. Should I set up a watch ? 
+3. Should I do a cleanup on exit ? 
 
-The last two arguments specify the path for save and looup in that order - for default its the directory where the script is being run from.
+The last two arguments specify the path for save for compiled files and lookup for source files in that order - for default its the directory where the script is being run from.
 
 The details are more throughly explained in [GeneralDev](https://github.com/JoyKrishnaMondal/GeneralDev)
 
