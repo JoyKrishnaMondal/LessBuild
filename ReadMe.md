@@ -38,9 +38,10 @@ it does the same as:
 >"require('LessBuild')(1,1,0,process.cwd(),process.cwd())"
 ```
 The first three arguments are flags for :
-1. Initial Compilation *regardless* of file change.
-2. Should I set up a watch ? 
-3. Should I do a cleanup on exit ? 
+
+	1. Initial Compilation *regardless* of file change.
+	2. Should I set up a watch ? 
+	3. Should I do a cleanup on exit ? 
 
 The last two arguments specify the path for save and looup in that order - for default its the directory where the script is being run from.
 
