@@ -15,7 +15,7 @@
 
 3. Only functional API based on my other  [module](https://github.com/JoyKrishnaMondal/GeneralDev)
 
-	+ For example if you want to do a `css` cleanup - get rid of all `css` files that got compiled from `less`
+	+ For example if you want to do a `css` cleanup (getting rid of all `css` files that got compiled from `less`)
 	```
 	> node -p "require('LessBuild')(0,0,1)"
 	```
@@ -23,7 +23,7 @@
 	```
 	+ node -p "require('LessBuild')(0,1,0)"
 	```
-	+ Or if you want to compile all your `less` source code to a ditribution directory.
+	+ Or if you want to compile all your `less` source code to a distribution directory.
 	```
 	> node -p "require('LessBuild')(1,0,0,"../distribution")"
 	```
