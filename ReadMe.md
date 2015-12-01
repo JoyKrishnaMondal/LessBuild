@@ -40,8 +40,8 @@ it does the same as:
 The first three arguments are flags for :
 
 1. Initial Compilation *regardless* of file change.
-2. Should I set up a watch ? 
-3. Should I do a cleanup on exit ? 
+2. passing `true` sets up watches
+3. passing `true` does a clean up for compiled files.
 
 The last two arguments specify the path for save for compiled files and lookup for source files in that order - for default its the directory where the script is being run from.
 
