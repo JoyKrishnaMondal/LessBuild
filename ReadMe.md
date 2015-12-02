@@ -9,7 +9,7 @@
 
 2. Simpler to use than Gulp.
 	```
-	> npm install https://github.com/JoyKrishnaMondal/LessBuild.git
+	> npm install JoyKrishnaMondal/LessBuild
 	> node -p "require('LessBuild')()"
 	```
 
